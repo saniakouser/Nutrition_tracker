@@ -1,0 +1,74 @@
+/* subscription.css */
+
+/* Styles for the pricing table container */
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Styles for the subscription plan */
+  .plan {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Styles for the card */
+  .cardy {
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the "NoDays" span */
+  #NoDays {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  /* Styles for the "price" span */
+  #price {
+    font-size: 32px;
+    color: #00b894; /* Green color */
+  }
+  
+  /* Styles for the "SubsDes" span */
+  #SubsDes {
+    font-size: 16px;
+    color: #333; /* Dark gray color */
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #00b894; /* Green color */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #009688; 
+  }
+  .link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .link:hover {
+    background-color: #0056b3; 
+  }
+  
+  

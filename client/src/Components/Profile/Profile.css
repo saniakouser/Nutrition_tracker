@@ -1,0 +1,108 @@
+.UserProfile {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.UserDetail {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  max-width: 600px;
+  width: 100%;
+}
+
+.UserProfileDetails {
+  display: flex;
+  align-items: center;
+}
+
+.Image {
+  background-color: #3498db;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+#name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+#gmail {
+  color: #3498db;
+}
+
+span[id^="weight"] {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #3498db;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.subs{
+  margin: 10px;
+  margin-top: 10%;
+  padding-right:20px;
+}
+.subs #x{
+   width: 100%;
+   padding: 10px;
+   margin: 5px;
+   cursor: pointer;
+   box-shadow: 0px 0px 10px rgb(178, 178, 201);
+}
+.subs #arrow{
+  position: relative;
+  right: 0;
+}
+button:hover {
+  background-color: #2980b9;
+}
+
+.Business-card {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.card1,
+.daysmissed {
+  background-color: #19435f;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #738998 ;
+  text-align: center;
+}
+
+/* Media Query for responsiveness */
+@media screen and (max-width: 600px) {
+  .UserDetail {
+    padding: 10px;
+  }
+
+  .Image {
+    width: 80px;
+    height: 80px;
+  }
+}

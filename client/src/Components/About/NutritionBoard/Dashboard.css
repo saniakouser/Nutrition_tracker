@@ -1,0 +1,119 @@
+ header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+        }
+        .dashboard{
+            flex: 1;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .graph{
+            display: flex;
+            justify-content: space-around;
+        }
+        .Progress-Report{
+            margin: 1%;
+            border-radius: 5px;
+            padding: 3%;
+            background-color: #fff;
+        }
+        .dashboard img{
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+      section {
+            display: flex;
+            padding: 1rem;
+      }
+        .nutrition-section {
+            flex: 2;
+            background-color: #fff;
+            padding: 1rem;
+            margin: 1rem;
+            border-radius: 8px;
+        }
+        td,th{
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        .nutrition-section{
+            padding: 2%;
+        }
+        .nutrition-section #hed{
+            padding: 10px;
+            background-color: #0b5464;
+            color: #fff;
+            display: inline;
+            margin-bottom: 10px;
+        }
+        .Dinner,.Breakfast,.Lunch{
+            padding: 1%;
+            margin: 1%;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 10px;
+        }
+    
+        th, td {
+            padding: 12px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+    
+        th {
+            background-color: #f2f2f2;
+        }
+    
+        /* Light colors for alternate rows */
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    
+        /* Darker color for table header */
+        th {
+            background-color: #ddd;
+        }
+    
+        /* Additional styling for your specific sections */
+        .Breakfast table,
+        .Lunch table,
+        .Dinner table {
+            margin-bottom: 10px;
+        }
+    
+        .Breakfast h1,
+        .Lunch h1,
+        .Dinner h1 {
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .Stats{
+            display: flex;
+            margin-top: 5%;
+            flex-wrap: wrap;
+        }
+        #card{
+            padding: 10px;
+            box-shadow: 0px 0px 5px rgb(149, 163, 168);
+            margin: 2%;
+            background-color: #91a6ab;
+            border-radius: 5px;
+        }
+        #progress{
+            padding: 5%;
+            margin: 3%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        #progress img{
+            border-radius: 2px;
+        }

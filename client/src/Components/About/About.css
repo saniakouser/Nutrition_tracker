@@ -1,0 +1,40 @@
+.aboutPage{
+    margin: 2%;
+    box-shadow: 0px 0px 3px rgb(205, 201, 201);
+    background-color: white;
+    padding: 2%;
+}
+.topAbout{
+    display: flex;
+    margin-top: 2%;
+}
+.topAbout p{
+    font-size: 1.2em;
+}
+.midAbout p{
+    padding-top: 10px;
+}
+.midAbout h3{
+   background-color:#064856 ;
+   box-shadow: 0px 0px 3px #a1bcc3;
+   color: white;
+   padding: 1%;
+   display: inline;
+   border-radius: 5px;
+}
+.downAbout h3{
+    font-size: 1.2em;
+}
+.downAbout h4{
+   padding-left: 2%;
+   padding-top: 1%;
+   font-size: 20px;
+   padding-bottom: 5px;
+}
+#p{
+    padding-left: 2%;
+}
+#z{
+    padding-top: 2%;
+    padding-left: 1%;
+}
